@@ -1,0 +1,140 @@
+
+body{
+	background-color: hsl(237, 49%, 15%);
+	margin: 0px;
+}
+	.container{
+	margin: 7% 25%;
+	
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid hsl(214, 47%, 23%); 
+	border-radius: .6rem;
+	padding: 0% 3%;
+	
+}
+.left__header h3{
+	    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    color: hsl(0deg 0% 90%);
+}
+.score__card{
+	background-color:  hsl(0, 0%, 100%);
+    width: 8rem;
+    border-radius: 0.5rem;
+    height: 90%;
+    margin-top: 4%;
+}
+.score__card p{
+	 display: block;
+    margin: 0rem;
+    padding-top: 0.1rem;
+    text-align: center;
+    font-size: 28px;
+    color: hsl(229, 25%, 31%);
+}
+.score__card span{
+	display: block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: hsl(229, 64%, 46%);
+}
+.show__rules{
+position: absolute;
+left: 37%;
+display: block;
+right: 40%;
+top: 25%;
+bottom: 25%;
+z-index: 1;
+border-radius: .5rem;
+background-color: hsl(0deg 0% 100%)
+}
+.rules__top{display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 5%;
+margin-right: 5%;}
+.rules__top span{
+	cursor: pointer;
+}
+.rules__main{
+margin-left: 2%;
+}
+.main__games{
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right:  20%;
+}
+.top__places{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.icon__paper{
+	background-color: hsl(0deg 0% 100%);
+	border:1rem solid hsl(230, 89%, 62%);
+	border-radius: 50%;
+	padding: 3%;
+}
+.icon__scissors{
+	background-color: hsl(0deg 0% 100%);
+	border:1rem solid hsl(39, 89%, 49%);
+	border-radius: 50%;
+	padding: 3%;
+}
+.icon__link{
+	background-color: hsl(214, 47%, 23%);
+	width: 50%;
+	height: .7rem;
+}
+.arrow__links{
+	display: flex;
+	justify-content: space-between;
+}
+.left_icon__link{
+   background-color: hsl(214, 47%, 23%);
+    margin-top: 9%;
+    margin-left: 13%;
+    width: 32%;
+    height: 0.7rem;
+    transform: rotate(45deg);
+}
+.right_icon__link{
+background-color: hsl(214, 47%, 23%);
+    margin-top: 9%;
+    width: 30%;
+    margin-right: 13%;
+    height: 0.7rem;
+    transform: rotate(-55deg);		
+}
+.bottom__places{
+margin-right: 34%;
+    margin-left: 37%;
+    margin-top: 4%;
+    background-color: hsl(0deg 0% 100%);
+    border: 1rem solid hsl(349, 71%, 52%);
+    border-radius: 50%;
+    padding: 3%;
+}
+.footer{
+	bottom:0;
+	padding: 0px 10%;
+	height: 20%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin-bottom: 2%;
+}
+.footer button{
+background-color: transparent;
+    color: #fff;
+    border: 1px solid hsl(214, 47%, 23%);
+    padding: 1% 4%;
+    font-size: 14px;
+    border-radius: 0.6rem;
+}
